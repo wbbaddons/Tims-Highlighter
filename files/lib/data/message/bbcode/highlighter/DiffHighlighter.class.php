@@ -5,12 +5,12 @@ require_once(WCF_DIR.'lib/data/message/bbcode/highlighter/Highlighter.class.php'
 /**
  * Highlights diffs
  *
- * @author	Tim Düsterhus
- * @copyright	Tim Düsterhus
- * @package	---
- * @license	
+ * @author	Tim DÃ¼sterhus
+ * @copyright	Tim DÃ¼sterhus
+ * @package	---
+ * @license
  */
-class DiffHighlighter extends Highlighter {	
+class DiffHighlighter extends Highlighter {
 	// keywords for an added line, the + is used in unified diff, the > in normal diff
 	protected $add = array("+", ">");
 	// keywords for an deleted line, the - is used in unified diff, the < in normal diff
@@ -19,10 +19,10 @@ class DiffHighlighter extends Highlighter {
 	protected $splitter = array("---");
 	// keywords for the line info, the @ is used in unfied diff, the numbers in normal diff
 	protected $info = array("@", '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
-	
+
 	/**
 	 * Overwrite method, cause we don't need that overhead
-	 * 
+	 *
 	 * @see Highlighter::highlight();
 	 */
 	public function highlight($data) {
@@ -41,7 +41,7 @@ class DiffHighlighter extends Highlighter {
 				$lines[$key] = StringUtil::encodeHTML($val);
 			}
 		}
-		
+
 		$data = implode("\n", $lines);
 		return $data;
 	}

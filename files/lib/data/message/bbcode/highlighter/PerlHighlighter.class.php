@@ -5,10 +5,10 @@ require_once(WCF_DIR.'lib/data/message/bbcode/highlighter/Highlighter.class.php'
 /**
  * Highlights perl sourcecode
  *
- * @author	Tim Düsterhus
- * @copyright	Tim Düsterhus
- * @package	---
- * @license	
+ * @author	Tim DÃ¼sterhus
+ * @copyright	Tim DÃ¼sterhus
+ * @package	---
+ * @license
  */
 class PerlHighlighter extends Highlighter {
 	// highlighter syntax
@@ -19,7 +19,7 @@ class PerlHighlighter extends Highlighter {
 	protected $operators = array(".=", "=", ">", "<", "!", "~", "?", ":", "==", "<=", ">=", "!=",
 		"&&", "||", "++", "--", "+", "-", "*", "/", "&", "|", "^", "%", "<<", ">>", ">>>", "+=", "-=", "*=",
 		"/=", "&=", "|=", "^=", "%=", "<<=", ">>=", ">>>=", "->", "::");
-	
+
 	protected $keywords1 = array(
 		"print",
 		"sprintf",
@@ -52,7 +52,7 @@ class PerlHighlighter extends Highlighter {
 		"pop",
 		"join",
 		"local",
-		"select",	
+		"select",
 		"index",
 		"sqrt",
 		"system",
@@ -90,7 +90,7 @@ class PerlHighlighter extends Highlighter {
 		"break",
 		"exit"
 	);
-	
+
 	protected $keywords3 = array(
 		"use",
 		"import",
