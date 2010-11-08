@@ -6,8 +6,8 @@ require_once(WCF_DIR.'lib/data/message/bbcode/highlighter/Highlighter.class.php'
  * Highlights diffs
  *
  * @author	Tim Düsterhus
- * @copyright	Tim Düsterhus
- * @package	---
+ * @copyright	2010 Tim Düsterhus
+ * @package	timwolla.wcf.bbcode.highlighter
  * @license
  */
 class DiffHighlighter extends Highlighter {
