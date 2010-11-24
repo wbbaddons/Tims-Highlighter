@@ -17,7 +17,7 @@ class DiffHighlighter extends Highlighter {
 	protected $delete = array("-", "<");
 	// the "splitter" in changes for normal diff
 	protected $splitter = array("---");
-	// keywords for the line info, the @ is used in unfied diff, the numbers in normal diff
+	// keywords for the line info, the @ is used in unified diff, the numbers in normal diff
 	protected $info = array("@", '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
 
 	/**
