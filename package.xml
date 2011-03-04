@@ -5,7 +5,7 @@
 		<packagedescription><![CDATA[Perl und Diff-Highlighter]]></packagedescription>
 		<isunique>1</isunique>
 		<version>1.0.0 Beta 1</version>
-		<date>2011-02-18</date>
+		<date>2011-03-04</date>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
 	</packageinformation>
