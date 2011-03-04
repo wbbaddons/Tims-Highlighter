@@ -23,9 +23,15 @@
 	<instructions type="install">
 		<files>files.tar</files>
 		<bbcodes>bbcodes.xml</bbcodes>
+		<language languagecode="de">de.xml</language>
+		<language languagecode="de-informal">de-informal.xml</language>
+		<language languagecode="en">en.xml</language>
 	</instructions>
 	<instructions type="update" fromversion="*">
 		<files>files.tar</files>
 		<bbcodes>bbcodes.xml</bbcodes>
+		<language languagecode="de">de.xml</language>
+		<language languagecode="de-informal">de-informal.xml</language>
+		<language languagecode="en">en.xml</language>
 	</instructions>
 </package>
