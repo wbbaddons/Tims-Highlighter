@@ -24,4 +24,8 @@
 		<files>files.tar</files>
 		<bbcodes>bbcodes.xml</bbcodes>
 	</instructions>
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<bbcodes>bbcodes.xml</bbcodes>
+	</instructions>
 </package>
