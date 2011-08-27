@@ -31,6 +31,16 @@
 			</attributes>
 			<sourcecode>1</sourcecode>
 		</bbcode>
+		<bbcode name="hq9plus">
+			<classname>CodeHighlightingBBCode</classname>
+			<allowedchildren>none</allowedchildren>
+			<attributes>
+				<attribute name="0">
+					<validationpattern>^\d+$</validationpattern>
+				</attribute>
+			</attributes>
+			<sourcecode>1</sourcecode>
+		</bbcode>
 		<bbcode name="whitespace">
 			<classname>WhitespaceBBCode</classname>
 			<allowedchildren>none</allowedchildren>
