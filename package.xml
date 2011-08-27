@@ -2,9 +2,9 @@
 <package name="timwolla.wcf.bbcode.highlighter" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
 		<packagename><![CDATA[Tims Highlighter]]></packagename>
-		<packagedescription><![CDATA[Perl-, Diff-, Brainfuck- und Whitespace-Highlighter]]></packagedescription>
+		<packagedescription><![CDATA[Perl-, Diff-, HQ9+-, Brainfuck- und Whitespace-Highlighter]]></packagedescription>
 		<isunique>1</isunique>
-		<version>1.0.0</version>
+		<version>1.1.0</version>
 		<date>2011-03-04</date>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
