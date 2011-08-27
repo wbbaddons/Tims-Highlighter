@@ -98,4 +98,3 @@ class PerlHighlighter extends Highlighter {
 		"sub"
 	);
 }
-?>

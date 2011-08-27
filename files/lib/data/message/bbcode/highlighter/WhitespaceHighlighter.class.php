@@ -40,4 +40,3 @@ class WhitespaceHighlighter extends Highlighter {
 		return $string;
 	}
 }
-?>

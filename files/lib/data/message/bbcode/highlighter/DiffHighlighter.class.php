@@ -46,4 +46,3 @@ class DiffHighlighter extends Highlighter {
 		return $data;
 	}
 }
-?>
