@@ -5,6 +5,7 @@
 		<item name="wcf.bbcode.whitespace.title"><![CDATA[Whitespace-Quelltext]]></item>
 		<item name="wcf.bbcode.brainfuck.title"><![CDATA[Brainfuck-Quelltext]]></item>
 		<item name="wcf.bbcode.hq9plus.title"><![CDATA[HQ9+-Quelltext]]></item>
+		<item name="wcf.bbcode.lolcode.title"><![CDATA[LOLCODE-Quelltext]]></item>
 		<item name="wcf.bbcode.diff.title"><![CDATA[Diff]]></item>
 	</category>
 </language>
