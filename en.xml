@@ -3,6 +3,7 @@
 	<category name="wcf.bbcode">
 		<item name="wcf.bbcode.perl.title"><![CDATA[Perl Source Code]]></item>
 		<item name="wcf.bbcode.whitespace.title"><![CDATA[Whitespace Source Code]]></item>
+		<item name="wcf.bbcode.brainfuck.title"><![CDATA[Brainfuck Source Code]]></item>
 		<item name="wcf.bbcode.diff.title"><![CDATA[Diff]]></item>
 	</category>
 </language>
