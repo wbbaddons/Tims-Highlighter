@@ -4,7 +4,7 @@
 		<packagename><![CDATA[Tims Highlighter]]></packagename>
 		<packagedescription><![CDATA[Perl und Diff-Highlighter]]></packagedescription>
 		<isunique>1</isunique>
-		<version>1.0.0 Beta 1</version>
+		<version>1.0.0</version>
 		<date>2011-03-04</date>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
@@ -28,6 +28,7 @@
 		<language languagecode="de-informal">de-informal.xml</language>
 		<language languagecode="en">en.xml</language>
 	</instructions>
+	
 	<instructions type="update" fromversion="*">
 		<files>files.tar</files>
 		<bbcodes>bbcodes.xml</bbcodes>
