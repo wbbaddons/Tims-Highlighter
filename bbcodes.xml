@@ -22,7 +22,7 @@
 			<sourcecode>1</sourcecode>
 		</bbcode>
 		<bbcode name="whitespace">
-			<classname>CodeHighlightingBBCode</classname>
+			<classname>WhitespaceBBCode</classname>
 			<allowedchildren>none</allowedchildren>
 			<attributes>
 				<attribute name="0">
