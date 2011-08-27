@@ -21,5 +21,15 @@
 			</attributes>
 			<sourcecode>1</sourcecode>
 		</bbcode>
+		<bbcode name="whitespace">
+			<classname>CodeHighlightingBBCode</classname>
+			<allowedchildren>none</allowedchildren>
+			<attributes>
+				<attribute name="0">
+					<validationpattern>^\d+$</validationpattern>
+				</attribute>
+			</attributes>
+			<sourcecode>1</sourcecode>
+		</bbcode>
 	</import>
 </data>
