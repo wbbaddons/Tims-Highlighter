@@ -7,7 +7,7 @@ require_once(WCF_DIR.'lib/data/message/bbcode/highlighter/Highlighter.class.php'
  *
  * @author	Tim Düsterhus
  * @copyright	2010 - 2011 Tim Düsterhus
- * @package	timwolla.wcf.bbcode.highlighter
+ * @package	de.wbb3addons.timwolla.wcf.bbcode.highlighter
  * @license 	Creative Commons BY-NC-SA <http://creativecommons.org/licenses/by-nc-sa/3.0/de/>
  */
 class PerlHighlighter extends Highlighter {
