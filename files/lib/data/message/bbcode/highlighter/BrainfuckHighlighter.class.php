@@ -41,7 +41,7 @@ class BrainfuckHighlighter extends Highlighter {
 		return $string;
 	}
 	
-	protected function encodeHTML($string) {	
+	protected function encodeHTML($string) {
 		// please don't encode our comments :(
 		return $string;
 	}
